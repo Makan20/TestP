@@ -25,7 +25,7 @@ def number(number):
     number = number.replace('7', '⁷')
     number = number.replace('8', '⁸')
     number = number.replace('9', '⁹')
-    number = number.replace(':', '.')
+    number = number.replace(':', '-')
     return number
 
 
