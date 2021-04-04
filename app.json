@@ -1,0 +1,30 @@
+{
+  "name": "Pic2Pic",
+  "description": "Pix2Pro",
+  "repository": "https://github.com/makan20/pix2pix",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "telethon"
+  ],
+  "stack": "container",
+  "env": {
+    "API_ID": {
+            "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "API_HASH": {
+            "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+            "required": true
+    },
+    "SESSION_STRING": {
+            "description": "Session string, Account Stirring Enter your account",
+            "required": true
+    },
+    "BIO": {
+            "description": "Set Bio",
+            "required": true
+    }
+  }
+}
