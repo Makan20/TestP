@@ -30,7 +30,7 @@ def number(number):
 
 
 def gettime():
-    return datetime.now().strftime('%h:%m')
+    return datetime.now().strftime('%H:%M')
 
 
 def generateimage(text):
